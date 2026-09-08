@@ -1,0 +1,4 @@
+#include "LocalSecrets.example.xcconfig"
+
+API_BASE_URL = https:/$()/app.ayron.example
+PRODUCT_BUNDLE_IDENTIFIER = com.ayron.cast
