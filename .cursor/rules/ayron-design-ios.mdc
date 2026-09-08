@@ -1,0 +1,22 @@
+---
+description: Ayron iOS design system — SwiftUI tokens and product screens for AyronCast.
+globs: ["**/*.swift"]
+alwaysApply: false
+---
+
+# AyronCast Design (SwiftUI)
+
+AyronCast is the native iOS client for Ayron. Visual identity matches the web design system in the linked **Ayron** repository (`design_system/Ayron/`).
+
+## How to use
+
+- Use `AyronColor`, `AyronSpacing`, `AyronRadius` from `AyronCast/Design/AyronTokens.swift`.
+- Use `AyronPrimaryButtonStyle` / `AyronSecondaryButtonStyle` for actions.
+- Follow screen structure in `Features/AppShell/AppShellView.swift` and the web UI kit `ui_kits/ayron-app/`.
+- Copy voice: sentence case, direct, lead with verbs, no emoji.
+
+## Non-negotiables
+
+- Light mode only. Ink primary buttons. One blue accent for focus/selection.
+- Borders (`AyronColor.border`) separate cards; avoid heavy shadows.
+- Match backend API contracts in `project_plan.md`; do not duplicate business logic in the client.
