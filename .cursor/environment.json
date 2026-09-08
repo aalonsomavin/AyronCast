@@ -1,0 +1,8 @@
+{
+  "name": "AyronCast iOS",
+  "repositoryDependencies": [
+    "github.com/aalonsomavin/Ayron"
+  ],
+  "install": "./scripts/cloud-agent-install.sh",
+  "enable_testing": false
+}
